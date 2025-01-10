@@ -1,18 +1,23 @@
-// import { useState } from 'react'
 import './App.css'
-import { motion } from 'framer-motion'
+import { Hero } from "@/sections/hero/Hero"
+import { NavBar } from './sections/navbar/Navbar'
 
 function App() {
 
   return (
-    <motion.div
-    className="p-6 bg-blue-500 text-white rounded-lg"
-    initial={{ opacity: 0, y: 50 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.5 }}
-  >
-    Hello, This is initial commit of Garri SW!
-  </motion.div>
+    <main>
+    <NavBar />
+    <Hero />
+    <section id="solutions" className="min-h-screen bg-gray-50">
+      {/* Solutions section content */}
+    </section>
+    <section id="about" className="min-h-screen">
+      {/* About section content */}
+    </section>
+    <section id="resources" className="min-h-screen bg-gray-50">
+      {/* Resources section content */}
+    </section>
+  </main>
   )
 }
 

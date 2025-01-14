@@ -1,14 +1,20 @@
 import { PartnerLogo } from './hero-types'
 export const partnerLogos: PartnerLogo[] = [
-    { name: 'Wishelp', src: '/placeholder.svg?height=50&width=120', alt: 'Wishelp logo' },
-    { name: 'WELYTICS', src: '/placeholder.svg?height=50&width=120', alt: 'WELYTICS logo' },
-    { name: 'JIGGLE', src: '/placeholder.svg?height=50&width=120', alt: 'JIGGLE logo' },
-    { name: 'Wishelp', src: '/placeholder.svg?height=50&width=120', alt: 'Wishelp logo' },
-    { name: 'JIGGLE', src: '/placeholder.svg?height=50&width=120', alt: 'JIGGLE logo' },
-    { name: 'Wishelp', src: '/placeholder.svg?height=50&width=120', alt: 'Wishelp log' },
-    { name: 'WELYTICS', src: '/placeholder.svg?height=50&width=120', alt: 'WELYTICS ogo' },
-    { name: 'JIGGLE', src: '/placeholder.svg?height=50&width=120', alt: 'JIGGLE log' },
-    { name: 'Wishelp', src: '/placeholder.svg?height=50&width=120', alt: 'Wishelp ogo' },
-    { name: 'JIGGLE', src: '/placeholder.svg?height=50&width=120', alt: 'JIGGLE lgo' },
+    { name: 'ethiopian-shipping', src: '/logo/ethiopian-shipping-logo.jpg', alt: 'ethiopian-shipping logo' },
+    { name: 'derba', src: '/logo/derba-logo.png', alt: 'derba logo' },
+    { name: 'garrilg', src: '/logo/garrilg-logo.png', alt: 'garrilg logo' },
+    { name: 'websprix', src: '/logo/websprix-logo.png', alt: 'websprix logo' },
+    { name: 'boortmalt', src: '/logo/boortmalt-logo.png', alt: 'boortmalt logo' },
+    { name: 'mig', src: '/logo/mig-logo.png', alt: 'mig logo' },
+    { name: 'geda', src: '/logo/geda-logo.png', alt: 'geda logo' },
+
+    //second round
+    { name: 'ethiopian-shipping', src: '/logo/ethiopian-shipping-logo.jpg', alt: 'ethiopian-shipping logo' },
+    { name: 'derba', src: '/logo/derba-logo.png', alt: 'derba logo' },
+    { name: 'garrilg', src: '/logo/garrilg-logo.png', alt: 'garrilg logo' },
+    { name: 'websprix', src: '/logo/websprix-logo.png', alt: 'websprix logo' },
+    { name: 'boortmalt', src: '/logo/boortmalt-logo.png', alt: 'boortmalt logo' },
+    { name: 'mig', src: '/logo/mig-logo.png', alt: 'mig logo' },
+    { name: 'geda', src: '/logo/geda-logo.png', alt: 'geda logo' },
   ]
   

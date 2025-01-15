@@ -1,5 +1,3 @@
-"use client";
-
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
@@ -9,7 +7,7 @@ import { partnerLogos } from "./hero-data";
 export function Hero() {
   return (
     <>
-      <section id="home" className=" min-h-screen pt-24  bg-white">
+      <section id="home" className="pt-24  bg-white">
         <motion.div
           className="absolute -left-12 top-48  z-1 hidden  xl:block"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -37,18 +35,18 @@ export function Hero() {
               </h1>
             </motion.h1>
 
-            <motion.div
+            {/* <motion.div
               className="absolute -z-10 left-0 right-0 bottom-0 h-[300px]"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.2 }}
             >
               <div className="w-full h-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 blur-3xl opacity-20" />
-            </motion.div>
+            </motion.div> */}
           </div>
 
           <motion.p
-            className="font-gilroyRegular text-amber-500 font-medium subheading max-w-3xl mx-auto"
+            className="font-gilroyRegular text-amber-600 font-medium subheading max-w-3xl mx-auto"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}

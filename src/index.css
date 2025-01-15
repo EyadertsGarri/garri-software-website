@@ -87,11 +87,21 @@
     @apply text-6xl md:text-7xl xl:text-8xl 2xl:text-9xl font-extrabold tracking-normal  ;
   }
 
+  .sectionhead {
+    @apply md:text-7xl text-6xl font-extrabold tracking-normal  ;
+  }
+
   .subheading {
     @apply text-xl font-medium text-muted-foreground mt-6;
   }
   .blue_gradient{
     @apply bg-gradient-to-r from-blue-900  via-blue-600 to-yellow-200 bg-clip-text text-transparent;
+  }
+  .sectionhead_gradient{
+    @apply bg-gradient-to-r from-blue-600  to-amber-600 bg-clip-text text-transparent;
+  }
+  .sectionsub_gradient{
+    @apply bg-gradient-to-r from-purple-800  to-blue-500 bg-clip-text text-transparent;
   }
 
   

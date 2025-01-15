@@ -61,6 +61,9 @@ module.exports = {
 			gilroyRegular: ["var(--font-gilroy-regular)", "sans-serif"],
 			gilroyLight: ["var(--font-gilroy-light)", "sans-serif"],
 		},
+		screens: {
+			'3xl': '1920px', // 16-inch screens (typically 1920px and above)
+		  },
   	}
   },
 

@@ -40,7 +40,7 @@ export function ProductCard({ product, isReversed }: ProductCardProps) {
         {/* Functionalities List */}
         <ul className="list-disc pl-5">
           {product.functionalities.map((func, index) => (
-            <li key={index} className="flex items-center font-gilroyRegular text-gray-600 text-lg">
+            <li key={index} className="flex items-center font-gilroyRegular text-gray-600 text-base font-medium">
           <Dot size={36} strokeWidth={3} className="mr-2"/>
             {/* <span className="font-gilroyRegular text-amber-600 font-normal subheading"> */}
               {func}
@@ -55,7 +55,7 @@ export function ProductCard({ product, isReversed }: ProductCardProps) {
               {product.ctaPrimary.text}
             </a>
           </Button> */}
-          <Button asChild variant="outline" className="border-2 border-amber-200 text-amber-600 hover:text-blue-600 text-base ml-8 gap-3">
+          <Button asChild variant="outline" className=" border-blue-200 text-blue-600 hover:text-blue-600 text-base font-semibold font-gilroyRegular ml-8 gap-3">
             <a href={product.ctaSecondary.href}>
               {product.ctaSecondary.text}
           <SquareArrowOutUpRight size={32} strokeWidth={3} />
@@ -78,11 +78,10 @@ export function ProductCard({ product, isReversed }: ProductCardProps) {
           src={product.imageUrl }
           alt={product.title}
         //  fill
-          className=" rounded-lg xl:max-w-[750px] lg:max-w-[550px] sm:max-w-[500px] max-w-[260px] "
+          className=" rounded-lg xl:max-w-[680px] lg:max-w-[550px] sm:max-w-[500px] max-w-[260px] "
         />
         </div>
     
-        {/* <div className="absolute inset-0 bg-blue-600 mix-blend-color z-30"></div> */}
       </motion.div>
     </div>
   )

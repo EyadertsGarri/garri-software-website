@@ -3,10 +3,10 @@ import { ProductCard } from "./productCard"
 
 export function Products() {
   return (
-    <section id="solutions" className="md:p-24 md:pb-8 3xl:px-56  p-8 ">
-      <div className="mb-8 ">
+    <section id="solutions" className="md:px-24 py-14 md:pb-8 3xl:px-56  p-8 ">
+      <div className="mb-14 ">
            <h1
-            className="font-gilroyBold font-extrabold xl:text-left text-center sectionhead sectionsub_gradient " 
+            className="font-gilroyBold font-extrabold text-center sectionhead sectionsub_gradient " 
            >
             Our Products
           </h1> 

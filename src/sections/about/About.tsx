@@ -3,10 +3,10 @@ import { motion } from "framer-motion"
 
 export function About() {
   return (
-    <section id="about" className="md:p-24 3xl:px-56  p-8 ">
-        <div className="mb-4 ">
+    <section id="about" className="md:px-24 py-14 3xl:px-56  p-8 ">
+        <div className="mb-16 ">
            <h1
-            className="font-gilroyBold font-extrabold xl:text-left text-center sectionhead sectionsub_gradient " 
+            className="font-gilroyBold font-extrabold text-center sectionhead sectionsub_gradient " 
            >
             About Us
           </h1> 

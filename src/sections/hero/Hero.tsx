@@ -63,20 +63,23 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
           >
-            <Button className="bg-blue-600 text-white  hover:bg-blue-600/80 font-gilroyRegular font-semibold text-base px-3 py-6">
+            <Button 
+              size="lg"
+              className="bg-blue-600 text-white  hover:bg-blue-600/80 font-gilroyRegular font-semibold text-base ">
               Explore Our Solutions
               <MoveUpRight className="ml-2" size={48} strokeWidth={3} />
             </Button>
             <Button
               variant="outline"
-              className=" border-amber-400 text-base text-amber-500  hover:bg-amber-500 hover:text-white font-gilroyRegular font-semibold px-3 py-6 "
+              size="lg"
+              className=" border-amber-400 text-base text-amber-500  hover:bg-amber-500 hover:text-white font-gilroyRegular font-semibold "
             >
               Book a Demo
               <Box className="ml-2" size={48} strokeWidth={2} />
             </Button>
           </motion.div>
           <motion.p
-            className="mt-20 text-blue-600 font-gilroyRegular font-medium md:text-2xl text-xl"
+            className="mt-14 text-blue-600 font-gilroyRegular font-medium md:text-2xl text-xl"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}

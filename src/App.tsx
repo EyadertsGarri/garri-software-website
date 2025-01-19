@@ -1,7 +1,12 @@
 import './App.css'
 import { Hero } from "@/sections/hero/Hero"
 import { NavBar } from './sections/navbar/Navbar'
-import { About } from './sections/about/about'
+import { About } from './sections/about/About'
+import { Products } from './sections/products/Product'
+import { Team } from './sections/team/Team'
+import { Testimonials } from './sections/testimonial/Testimonials'
+import { Contact } from './sections/contact/Contact'
+import { Footer } from './sections/footer/Footer'
 
 function App() {
 
@@ -13,11 +18,25 @@ function App() {
       {/* About section content */}
       <About/>
     </section>
-    <section id="solutions" className="min-h-screen bg-gray-50">
-      {/* Solutions section content */}
+    <section id="products" className="min-h-screen bg-white">
+      {/* Products section content */}
+      <Products/>
     </section>
-    <section id="resources" className="min-h-screen bg-gray-50">
+    <section id="teams" className="min-h-screen bg-white">
+      {/* Teams section content */}
+      <Team/>
+    </section>
+    <section id="testimonials" className=" bg-gray-50/60">
       {/* Resources section content */}
+      <Testimonials/>
+    </section>
+    <section id="contactUs" className=" bg-white">
+      {/* Resources section content */}
+      <Contact/>
+    </section>
+    <section  className=" bg-white">
+      {/* Footer*/}
+      <Footer/>
     </section>
   </main>
   )

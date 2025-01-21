@@ -16,7 +16,7 @@ export function Testimonials() {
          
         </h2>
         <p
-        className="font-gilroyRegular text-amber-600 font-normal subheading max-w-3xl mx-auto"
+        className="font-gilroyRegular text-amber-600 font-normal subheading max-w-3xl sm:text-left text-center mx-auto"
         >
           Hear from our satisfied customers about their experience with our product.
         </p>
@@ -44,10 +44,10 @@ export function Testimonials() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="absolute -left-12 lg:-left-16 top-1/2 -translate-y-1/2 rounded-full bg-white border-2 border-gray-200 p-2 text-blue-600 hover:text-blue-800 shadow-sm transition-colors hover:bg-gray-50">
+          <CarouselPrevious className="absolute sm:block hidden -left-12 lg:-left-16 top-1/2 -translate-y-1/2 rounded-full bg-white border-2 border-gray-200 p-2 text-blue-600 hover:text-blue-800 shadow-sm transition-colors hover:bg-gray-50">
             <ChevronLeft className="h-6 w-6" />
           </CarouselPrevious>
-          <CarouselNext className="absolute -right-12 lg:-right-16 top-1/2 -translate-y-1/2 rounded-full bg-white border-2 border-gray-200 p-2 text-blue-600 hover:text-blue-800  shadow-sm transition-colors hover:bg-gray-50">
+          <CarouselNext className="absolute sm:block hidden -right-12 lg:-right-16 top-1/2 -translate-y-1/2 rounded-full bg-white border-2 border-gray-200 p-2 text-blue-600 hover:text-blue-800  shadow-sm transition-colors hover:bg-gray-50">
             <ChevronRight className="h-6 w-6" />
           </CarouselNext>
         </Carousel>

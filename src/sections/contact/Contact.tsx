@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 import { ContactForm } from "./ContactForm"
 import { Button } from "@/components/ui/button"
 import { Mail, MapPin, Phone } from 'lucide-react'
+import { Toaster } from 'sonner'
 
 export function Contact() {
   return (
@@ -67,7 +68,9 @@ export function Contact() {
           transition={{ delay: 0.2 }}
           className="bg-white rounded-2xl shadow-sm border border-blue-100 p-8"
         >
-          <ContactForm />
+          <Toaster/>
+         <ContactForm />
+    
         </motion.div>
       </div>
     </section>

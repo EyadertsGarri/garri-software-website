@@ -13,7 +13,6 @@ import {
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { toast } from "sonner"
-// import { sendEmail } from "@/actions/send-email"
 import { useState } from "react"
 
 const formSchema = z.object({
@@ -57,13 +56,13 @@ export function ContactForm() {
     if (response.ok) {
       toast.success("Message sent successfully!", {
         duration: 3000,  // Auto-close in 3 seconds
-        position: 'top-right',
+        position: 'bottom-right',
       });
       form.reset();
     } else {
       toast.error("Something went wrong. Please try again.", {
         duration: 3000,  // Auto-close in 3 seconds
-        position: 'top-right',
+        position: 'bottom-right',
       });
     }
     setIsSubmitting(false)

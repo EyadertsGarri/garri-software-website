@@ -19,7 +19,7 @@ export function NavBar() {
         <button onClick={() => scrollToSection('home')} className="flex items-center space-x-2">
           {/* <div className="w-8 h-8 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full" />
           <span className="text-xl font-bold">G-SW</span> */}
-          <img src="/logo/garrilg-logo.png" alt="logo" className="max-w-[130px]" />
+          <img src="/logo/garrisw-logo.png" alt="logo" className="max-w-[130px]" />
         </button>
         
         <div className="hidden md:flex items-center space-x-8 ">
